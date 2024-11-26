@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <img src="images/reports1-icon.png" alt="Report Icon" class="icon">
+
   <title>yolla.tech</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
   <header>
-    <h1>yolla.tech</h1>
+    <h1><a href="http://www.yolla.tech">yolla.tech</a></h1>
+    <a href="https://www.instagram.com/yolla.tech" target="_blank" class="instagram-link">
+      <img src="images/instagram.png" alt="Instagram" class="instagram-logo">
+    </a>
     <nav>
-      <ul>
+      <div class="menu-icon" id="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul id="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#reports">Reports</a></li>
         <li><a href="#team">Team</a></li>
@@ -20,59 +33,97 @@
   </header>
 
   <section id="home">
-    <h2>About the Project</h2>
-    <p>We are a team of five working on an innovative project..</p>
+    <div class="home-container">
+      <div class="hero">
+        <h2>Welcome to yolla.tech</h2>
+        <p>Smart way to send</p>
+        <a href="http://www.yolla.tech" class="cta-button">Get Started</a>
+      </div>
+    </div>
   </section>
 
   <section id="reports" class="hidden">
-    <h2>Download Our Reports</h2>
-    <ul>
-      <li><a href="reports/project_information_form.pdf" download>Project Information Form</a></li>
-      <li><a href="reports/assessment_of_innovation_form.pdf" download>Assessment of Innovation Form</a></li>
-      <li><a href="reports/project_specification_document.pdf" download>Project Specification Document</a></li>
-      <li><a href="reports/analysis_and_requirements_report.pdf" download>Analysis and Requirements Report</a></li>
-      <li><a href="reports/presentation_and_demo.pdf" download>Presentation and Demo</a></li>
-    </ul>
+    <div class="reports-container">
+      <div class="report-card">
+        <img src="images/report1-icon.png" alt="Report Icon">
+        <h3>Project Information Report</h3>
+        <a href="reports/project_information_form.pdf" download class="download-button">View</a>
+      </div>
+      <div class="report-card">
+        <img src="images/report2-icon.png" alt="Report Icon">
+        <h3>Assessment of Innovation</h3>
+        <a href="reports/assessment_of_innovation_form.pdf" download class="download-button">View</a>
+      </div>
+      <div class="report-card">
+        <img src="images/report3-icon.png" alt="Report Icon">
+        <h3>Project Specification Report</h3>
+        <a href="reports/project_specification_document.pdf" download class="download-button">View</a>
+      </div>
+      <div class="report-card">
+        <img src="images/report4-icon.png" alt="Report Icon">
+        <h3>Analysis & Requirements</h3>
+        <a href="reports/analysis_and_requirements_report.pdf" download class="download-button">View</a>
+      </div>
+      <div class="report-card">
+        <img src="images/report5-icon.png" alt="Report Icon">
+        <h3>Presentation and Demo</h3>
+        <a href="reports/presentation_and_demo.pdf" download class="download-button">View</a>
+      </div>
+    </div>
   </section>
 
   <section id="team" class="hidden">
     <h2>Meet the Team</h2>
-    <div class="team-member">
-      <img src="images/member1.jpg" alt="Member 1">
-      <h3>Celal Salih Türkmen</h3>
-      <p>Full-Stack Developer</p>
-    </div>
-    <div class="team-member">
-      <img src="images/member2.jpg" alt="Member 2">
-      <h3>Elif Şen</h3>
-      <p>Full-Stack Developer</p>
-    </div>
-    <div class="team-member">
-      <img src="images/member3.jpg" alt="Member 3">
-      <h3>Eslim Rana Emmiroğlu</h3>
-      <p>Full-Stack Developer</p>
-    </div>
-    <div class="team-member">
-      <img src="images/member4.jpg" alt="Member 4">
-      <h3>Halil Tataroğlu</h3>
-      <p>Full-Stack Developer</p>
-    </div>
-    <div class="team-member">
-      <img src="images/member5.jpg" alt="Member 5">
-      <h3>Sadra M.Azarabadi</h3>
-      <p>Full-Stack Developer</p>
+    <div class="team-container">
+      <div class="team-member">
+        <a href="https://www.linkedin.com/in/celalturkmen" target="_blank">
+          <img src="images/member1.jpg" alt="Celal Salih Türkmen">
+        </a>
+        <h3>Celal Salih Türkmen</h3>
+        <p>Full-Stack Developer</p>
+      </div>
+      <div class="team-member">
+        <a href="https://www.linkedin.com/in/senelif" target="_blank">
+          <img src="images/member2.jpg" alt="Elif Şen">
+        </a>
+        <h3>Elif Şen</h3>
+        <p>Full-Stack Developer</p>
+      </div>
+      <div class="team-member">
+        <a href="https://www.linkedin.com/in/eslim-rana-emiroğlu-4598bb227/" target="_blank">
+          <img src="images/member3.jpg" alt="Eslim Rana Emiroğlu">
+        </a>
+        <h3>Eslim Rana Emmiroğlu</h3>
+        <p>Full-Stack Developer</p>
+      </div>
+      <div class="team-member">
+        <a href="https://www.linkedin.com/in/halil-tataroglu" target="_blank">
+          <img src="images/member4.jpg" alt="Halil Tataroğlu">
+        </a>
+        <h3>Halil Tataroğlu</h3>
+        <p>Full-Stack Developer</p>
+      </div>
+      <div class="team-member">
+        <a href="https://www.linkedin.com/in/sardter" target="_blank">
+          <img src="images/member5.jpg" alt="Sadra M. Azarabadi">
+        </a>
+        <h3>Sadra M.Azarabadi</h3>
+        <p>Full-Stack Developer</p>
+      </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
   <section id="contact" class="hidden">
     <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:contact@yolla.tech">team@example.com</a></p>
+    <p>We'd love to hear from you! Feel free to reach out with any questions or feedback.</p>
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>Email Us</h3>
+        <p>Email: <a href="mailto:contact@yolla.tech">contact@yolla.tech</a></p>
+      </div>
+    </div>
   </section>
-
-  <footer>
-    <p>&copy; 2024 yolla.tech</p>
-  </footer>
   <script src="js/scripts.js"></script>
 </body>
+
 </html>
