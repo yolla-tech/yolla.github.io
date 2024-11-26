@@ -103,6 +103,7 @@ section {
   align-items: center;
 }
 
+
 .hero h2 {
   font-size: 3em;
   margin-bottom: 20px;
@@ -120,10 +121,12 @@ section {
 
 .hero {
   position: relative;
+  /* Change this depending on the parent container */
   text-align: center;
   color: #333;
   padding: 100px 20px;
   background: rgba(255, 255, 255, 0.8);
+  /* Slightly transparent white background */
   border-radius: 10px;
   display: inline-block;
   margin: 0 auto;
@@ -184,6 +187,7 @@ section {
     transform: translateX(0);
   }
 }
+
 
 .reports-container {
   display: flex;
